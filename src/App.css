@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+  width: 50%;
+}
+
+.flow > * + * {
+  margin-top: 1rem;
+}
+
+.dropZone {
+  flex: 1;
+  height: 30em;
+  overflow: scroll;
+  border: 1px solid #111;
+}
+
+.dropZone__category {
+  background-color: tomato;
+  padding-block: 0.5em;
+  border-bottom: 1px solid #111;
+}
+
+.draggable {
+  font-size: 1.25rem;
+  background-color: #ddd;
+  padding: 0.5rem;
+  border: 1px solid #111;
+}
